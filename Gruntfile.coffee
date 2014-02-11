@@ -25,11 +25,13 @@ module.exports = (grunt) ->
       testMocha:
         src: [ "#{TEST_DIR}/*.coffee"]
         options:
+          require: 'coverage/blanket'
           reporter: 'mocha-multi'
 
       testNotMocha:
         src: [ "#{TEST_DIR}/*.coffee"]
         options:
+          require: 'coverage/blanket'
           reporter: 'spec'
 
     shell:

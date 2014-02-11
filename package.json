@@ -46,8 +46,12 @@
     "grunt-shell": "~0.3.0",
     "coffee-script": "~1.6.3",
     "mocha": "~1.15.1",
-    "mocha-multi": "~0.3.0"
+    "blanket": "~1.1.6",
+    "mocha-multi": "~0.3.0",
+    "require-all": "0.0.8"
   },
   "keywords": [],
-  "dependencies": { }
+  "dependencies": {
+    "express": "~3.3.4"
+  }
 }

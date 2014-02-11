@@ -1,7 +1,7 @@
-chai  = require 'chai'
-expect = chai.expect
-
+chai        = require 'chai'
 stringutils = require '../src/stringutils'
+
+expect      = chai.expect
 
 describe "Stringutils module", ->
 
